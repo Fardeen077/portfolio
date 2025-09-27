@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Lab from "./pages/Lab";
 import Avatar from "./components/Avatar";
-
+import Footer from "./components/Footer";
 
 export default function App() {
 
@@ -22,6 +22,7 @@ export default function App() {
           <Route path="lab" element={<Lab/>}/>
         </Routes>
         {/* footer  */}
+        <Footer />
       </HashRouter>
     </div>
   );

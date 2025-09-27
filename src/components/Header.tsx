@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import naruto from "../../public/naruto.jpg"
+import naruto from "@/assets/naruto.jpg"
 import { useState } from "react";
 import { LucideMenu, X } from "lucide-react"
 
@@ -7,7 +7,7 @@ export default function Header() {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <div className="text-white bg-portfolio p-5 flex justify-between">
+        <div className="text-white bg-portfolio p-5 flex justify-between fixed top-0 left-0 right-0 z-50">
             <div className="ml-11">
                 <NavLink to="avatar">
                     <img src={naruto} alt="naruto-image" className="rounded-full w-10 h-10 bg-cover cursor-pointer" />

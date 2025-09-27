@@ -7,8 +7,8 @@ export default function Home () {
     return (
        <div>
          <HomeSection />
-        <Project />
-        <Skill />
+         <Skill />
+        <Project />    
        </div>
     )
 }

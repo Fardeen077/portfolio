@@ -7,11 +7,15 @@ body {
   @apply min-h-screen w-full bg-gradient-to-br bg-dar text-white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 @theme inline {
   --color-portfolio: #1a0033;
   --color-portfolio-dark: #3b0066;
-  --color-dar:#150026;
+  --color-dar: #150026;
   --shadow-glow: 0 0 30px rgba(128, 0, 255, 0.5);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

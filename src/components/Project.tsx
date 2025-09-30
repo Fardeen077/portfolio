@@ -52,8 +52,8 @@ export default function Project() {
 // })}
 
     return (
-        <div className=" px-16 flex flex-col">
-            <h1 className="text-5xl flex items-center justify-center mb-10">PROJECTS</h1>
+        <div className=" px-16 flex flex-col text-gray-600">
+            <h1 className="text-5xl flex items-center justify-center mb-10 text-white">PROJECTS</h1>
             <div className="flex flex-col md:flex-row gap-20 ">
                 {/* Chat app image */}
                 <motion.img

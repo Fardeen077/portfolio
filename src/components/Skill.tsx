@@ -21,7 +21,7 @@ export default function Skill() {
         { icon: <FaGithub className="text-white" />, name: "GitHub" },
     ];
     return (
-        <div className="flex flex-wrap gap-6 text-5xl px-16 sm:px-16 justify-center h-screen">
+        <div className="flex flex-wrap gap-6 text-5xl px-16 sm:px-16 justify-center mb-32">
 
             <div className="text-gray-600 dark:text-gray-300 mb-8 text-xl max-w-5xl flex justify-center items-center">
                 <motion.div

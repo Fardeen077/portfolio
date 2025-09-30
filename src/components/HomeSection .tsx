@@ -14,7 +14,7 @@ export default function HomeSection() {
                     className="mt-32 w-full md:w-1/2 md:ml-40 leading-relaxed">
                     <h1 className="text-3xl font-bold">Hi, I’m Fardeen</h1>
                     <p className="text-xl mt-2">A Frontend Web Developer</p>
-                    <p className="mt-4">I build responsive and user-friendly websites using React and the MERN stack.</p>
+                    <p className="mt-4 text-gray-600">I build responsive and user-friendly websites using React and the MERN stack.</p>
                 </motion.div>
             </div>
         </div>
